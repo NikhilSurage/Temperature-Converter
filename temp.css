@@ -1,0 +1,57 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+label{
+    font-family: monospace;
+    font-size: large;
+}
+.wrapper{
+    width: 500px;
+    background-color: aliceblue;
+    padding: 70px 40px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+.input{
+    border-radius: 5px;
+    border: 2px solid rgb(124, 124, 167);
+    outline: none;
+    padding: 5px;
+    margin-left: 20px;
+}
+select{
+    border-radius: 5px;
+    border: 2px solid rgb(87, 87, 131);
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.submit{
+    background-color: transparent;
+    border: 2px solid rgb(84, 84, 116);
+    outline: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    font-family: monospace;
+    border-radius: 8px;
+}
+.submit:hover{
+    background-color: rgb(85, 85, 121);
+    color: white;
+}
+.output{
+    font-size: large;
+    font-family: monospace;
+    color: rgb(27, 19, 19);
+}
